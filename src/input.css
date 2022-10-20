@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    :root {
+        /* For hsl(198deg 93% 60% / <alpha-value>) */
+        --color-primary: 158deg 36% 37%; /* Dark cyan */
+        --color-secondary: 30deg 38% 92%; /* Cream */
+        --color-graytext: 228deg 12% 48%;
+    }
+}

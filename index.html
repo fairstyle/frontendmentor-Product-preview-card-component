@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontendmentor Challenge - Product preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="h-screen bg-secondary grid place-content-center m-auto">
+        <div class="bg-white rounded-xl overflow-hidden grid grid-rows-3 md:grid-cols-2 md:grid-rows-none z-20 mt-4">
+            <div class="row-span-1 md:col-span-1">
+                <img class="z-10 max-h-[450px] hidden md:block" src="../challenge/images/image-product-desktop.jpg" alt="product">
+                <img class="z-10 max-w-[350px] block md:hidden" src="../challenge/images/image-product-mobile.jpg" alt="product">
+            </div>
+            <div class="row-span-2 md:col-span-1 ml-6 mr-8 w-full max-w-[290px] md:max-w-[250px] h-auto">
+                <p class="text-graytext font-italic text-[12px] mb-4 mt-8 tracking-[.50em] font-['Montserrat']">
+                    PERFUME
+                </p>
+                <h1 class="text-gray-800 font-black text-3xl mb-6 font-['Fraunces']">
+                    Gabrielle Essence Eau de Parfum
+                </h1>
+                <p class="mb-6 text-graytext font-['Montserrat'] text-[14px]">
+                    A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.
+                </p>
+                <p class="mb-6 text-3xl text-primary font-bold  font-['Fraunces']">
+                    $149.99 <span class="text-xs italic text-graytext line-through pl-6 absolute font-normal ">$169.99</span>
+                </p>
+                <button class="flex justify-center bg-primary text-white font-black py-4 rounded-xl w-full gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
