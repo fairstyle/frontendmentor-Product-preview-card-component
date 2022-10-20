@@ -785,6 +785,14 @@ video {
     grid-column: span 1 / span 1;
   }
 
+  .md\:m-auto {
+    margin: auto;
+  }
+
+  .md\:m-0 {
+    margin: 0px;
+  }
+
   .md\:block {
     display: block;
   }
