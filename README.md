@@ -6,6 +6,7 @@
 this is my first challenge from frontendmentor.io
 
 - [Source Frontendmentor Challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+- [Live preview](https://fairstyle.github.io/frontendmentor-Product-preview-card-component/)
 
 # Technologies
 - Html
