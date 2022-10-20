@@ -1,6 +1,7 @@
 # Frontendmentor Challenge
 
-![](challenge/design/desktop-design.jpg)
+![Frontendmentor Logo](https://miro.medium.com/max/1100/0*cfYEyKU7fH1Vz37c.png)
+![Challenge](challenge/design/desktop-design.jpg)
 
 ## #1 Product preview card component
 this is my first challenge from frontendmentor.io
